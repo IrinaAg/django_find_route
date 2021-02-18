@@ -74,4 +74,3 @@ class CityListView(ListView):
         form = CityForm()
         context['form'] = form
         return context
-
