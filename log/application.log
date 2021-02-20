@@ -1,0 +1,706 @@
+DEBUG 2021-02-20 07:12:51,615 utils (0.015) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+DEBUG 2021-02-20 07:12:51,633 utils (0.001) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
+WARNING 2021-02-20 11:48:05,409 log Not Found: /favicon.ico
+WARNING 2021-02-20 13:33:33,184 log Not Found: /favicon.ico
+WARNING 2021-02-20 18:45:55,479 log Not Found: /favicon.ico
+WARNING 2021-02-20 18:46:14,037 log Not Found: /favicon.ico
+WARNING 2021-02-20 19:11:05,200 log Not Found: /favicon.ico
+WARNING 2021-02-20 19:11:15,149 log Not Found: /favicon.ico
+WARNING 2021-02-20 19:11:20,154 log Not Found: /favicon.ico
+WARNING 2021-02-20 19:12:37,121 log Not Found: /favicon.ico
+WARNING 2021-02-20 19:12:57,797 log Not Found: /static/admin/css/base.css
+WARNING 2021-02-20 19:12:57,806 log Not Found: /static/admin/css/responsive.css
+WARNING 2021-02-20 19:12:57,807 log Not Found: /static/admin/css/dashboard.css
+WARNING 2021-02-20 19:12:57,812 log Not Found: /static/admin/css/nav_sidebar.css
+WARNING 2021-02-20 19:12:57,925 log Not Found: /static/admin/js/nav_sidebar.js
+WARNING 2021-02-20 19:13:16,988 log Not Found: /static/admin/css/base.css
+WARNING 2021-02-20 19:13:16,990 log Not Found: /static/admin/css/dashboard.css
+WARNING 2021-02-20 19:13:16,994 log Not Found: /static/admin/css/responsive.css
+WARNING 2021-02-20 19:13:16,998 log Not Found: /static/admin/js/nav_sidebar.js
+WARNING 2021-02-20 19:13:17,001 log Not Found: /static/admin/css/nav_sidebar.css
+WARNING 2021-02-20 19:13:30,745 log Not Found: /static/admin/css/base.css
+WARNING 2021-02-20 19:13:30,748 log Not Found: /static/admin/css/nav_sidebar.css
+WARNING 2021-02-20 19:13:30,751 log Not Found: /static/admin/js/nav_sidebar.js
+WARNING 2021-02-20 19:13:30,755 log Not Found: /static/admin/css/changelists.css
+WARNING 2021-02-20 19:13:30,772 log Not Found: /static/admin/js/actions.min.js
+WARNING 2021-02-20 19:13:30,776 log Not Found: /static/admin/js/vendor/jquery/jquery.min.js
+WARNING 2021-02-20 19:13:30,789 log Not Found: /static/admin/js/prepopulate.min.js
+WARNING 2021-02-20 19:13:30,792 log Not Found: /static/admin/js/vendor/xregexp/xregexp.min.js
+WARNING 2021-02-20 19:13:30,798 log Not Found: /static/admin/css/responsive.css
+WARNING 2021-02-20 19:13:30,809 log Not Found: /static/admin/js/jquery.init.js
+WARNING 2021-02-20 19:13:30,857 log Not Found: /static/admin/js/vendor/jquery/jquery.min.js
+WARNING 2021-02-20 19:13:30,870 log Not Found: /static/admin/js/jquery.init.js
+WARNING 2021-02-20 19:13:30,878 log Not Found: /static/admin/js/core.js
+WARNING 2021-02-20 19:13:30,880 log Not Found: /static/admin/js/admin/RelatedObjectLookups.js
+WARNING 2021-02-20 19:13:30,884 log Not Found: /static/admin/js/urlify.js
+WARNING 2021-02-20 19:13:30,887 log Not Found: /static/admin/js/actions.min.js
+WARNING 2021-02-20 19:13:31,300 log Not Found: /static/admin/js/urlify.js
+WARNING 2021-02-20 19:13:31,305 log Not Found: /static/admin/js/prepopulate.min.js
+WARNING 2021-02-20 19:13:31,310 log Not Found: /static/admin/js/vendor/xregexp/xregexp.min.js
+WARNING 2021-02-20 19:13:31,316 log Not Found: /static/admin/css/responsive.css
+DEBUG 2021-02-20 19:14:13,673 utils (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+DEBUG 2021-02-20 19:14:13,690 utils (0.001) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
+WARNING 2021-02-20 19:14:25,229 log Not Found: /favicon.ico
+DEBUG 2021-02-20 19:14:31,987 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2021-02-20 19:14:31.974222' AND "django_session"."session_key" = 'ujx4ulfu7uvtrpwrmton2ezujnfccale') LIMIT 21; args=('2021-02-20 19:14:31.974222', 'ujx4ulfu7uvtrpwrmton2ezujnfccale')
+DEBUG 2021-02-20 19:14:31,989 utils (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,)
+DEBUG 2021-02-20 19:14:31,990 utils (0.000) SELECT COUNT(*) AS "__count" FROM "routes_route"; args=()
+DEBUG 2021-02-20 19:14:31,990 utils (0.000) SELECT COUNT(*) AS "__count" FROM "routes_route"; args=()
+DEBUG 2021-02-20 19:14:31,994 utils (0.000) SELECT "routes_route"."id", "routes_route"."name", "routes_route"."travel_times", "routes_route"."from_city_id", "routes_route"."to_city_id" FROM "routes_route" ORDER BY "routes_route"."travel_times" ASC, "routes_route"."id" DESC; args=()
+DEBUG 2021-02-20 19:14:32,053 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:14:32,056 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:14:32,113 utils (0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2021-02-20 19:14:32.110474' AND "django_session"."session_key" = 'ujx4ulfu7uvtrpwrmton2ezujnfccale') LIMIT 21; args=('2021-02-20 19:14:32.110474', 'ujx4ulfu7uvtrpwrmton2ezujnfccale')
+DEBUG 2021-02-20 19:14:32,115 utils (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,)
+DEBUG 2021-02-20 19:24:07,827 utils (0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2021-02-20 19:24:07.825272' AND "django_session"."session_key" = 'ujx4ulfu7uvtrpwrmton2ezujnfccale') LIMIT 21; args=('2021-02-20 19:24:07.825272', 'ujx4ulfu7uvtrpwrmton2ezujnfccale')
+DEBUG 2021-02-20 19:24:07,828 utils (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,)
+DEBUG 2021-02-20 19:24:08,823 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2021-02-20 19:24:08.822302' AND "django_session"."session_key" = 'ujx4ulfu7uvtrpwrmton2ezujnfccale') LIMIT 21; args=('2021-02-20 19:24:08.822302', 'ujx4ulfu7uvtrpwrmton2ezujnfccale')
+DEBUG 2021-02-20 19:24:08,824 utils (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,)
+DEBUG 2021-02-20 19:24:08,869 utils (0.032) SELECT "django_admin_log"."id", "django_admin_log"."action_time", "django_admin_log"."user_id", "django_admin_log"."content_type_id", "django_admin_log"."object_id", "django_admin_log"."object_repr", "django_admin_log"."action_flag", "django_admin_log"."change_message", "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined", "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_admin_log" INNER JOIN "auth_user" ON ("django_admin_log"."user_id" = "auth_user"."id") LEFT OUTER JOIN "django_content_type" ON ("django_admin_log"."content_type_id" = "django_content_type"."id") WHERE "django_admin_log"."user_id" = 1 ORDER BY "django_admin_log"."action_time" DESC LIMIT 10; args=(1,)
+DEBUG 2021-02-20 19:24:09,781 utils (0.001) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC; args=()
+DEBUG 2021-02-20 19:24:09,814 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC; args=()
+DEBUG 2021-02-20 19:24:09,818 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC; args=()
+DEBUG 2021-02-20 19:24:22,822 utils (0.001) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:24:22,822 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 8 LIMIT 21; args=(8,)
+DEBUG 2021-02-20 19:24:22,840 utils (0.016) SELECT "trains_train"."id", "trains_train"."name", "trains_train"."travel_time", "trains_train"."from_city_id", "trains_train"."to_city_id", "cities_city"."id", "cities_city"."name", T3."id", T3."name" FROM "trains_train" INNER JOIN "cities_city" ON ("trains_train"."from_city_id" = "cities_city"."id") INNER JOIN "cities_city" T3 ON ("trains_train"."to_city_id" = T3."id") ORDER BY "trains_train"."travel_time" ASC; args=()
+DEBUG 2021-02-20 19:24:22,846 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC; args=()
+DEBUG 2021-02-20 19:24:22,851 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC; args=()
+DEBUG 2021-02-20 19:24:22,854 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC; args=()
+DEBUG 2021-02-20 19:24:39,815 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" IN (10, 8) ORDER BY "cities_city"."name" ASC; args=(10, 8)
+DEBUG 2021-02-20 19:24:39,917 utils (0.021) SELECT "trains_train"."id", "trains_train"."name", "trains_train"."travel_time", "trains_train"."from_city_id", "trains_train"."to_city_id", "cities_city"."id", "cities_city"."name", T3."id", T3."name" FROM "trains_train" INNER JOIN "cities_city" ON ("trains_train"."from_city_id" = "cities_city"."id") INNER JOIN "cities_city" T3 ON ("trains_train"."to_city_id" = T3."id") WHERE "trains_train"."id" IN (1) ORDER BY "trains_train"."travel_time" ASC; args=(1,)
+DEBUG 2021-02-20 19:24:39,917 utils (0.000) SELECT "trains_train"."id", "trains_train"."name", "trains_train"."travel_time", "trains_train"."from_city_id", "trains_train"."to_city_id" FROM "trains_train" ORDER BY "trains_train"."travel_time" ASC; args=()
+DEBUG 2021-02-20 19:24:39,918 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:24:39,919 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:24:39,920 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:24:39,920 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:24:39,921 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:24:39,921 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:25:06,202 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:25:06,203 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 8 LIMIT 21; args=(8,)
+DEBUG 2021-02-20 19:25:06,204 utils (0.000) SELECT "trains_train"."id", "trains_train"."name", "trains_train"."travel_time", "trains_train"."from_city_id", "trains_train"."to_city_id" FROM "trains_train" WHERE "trains_train"."id" IN (1) ORDER BY "trains_train"."travel_time" ASC; args=(1,)
+DEBUG 2021-02-20 19:25:06,205 utils (0.000) SELECT (1) AS "a" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 1; args=(10,)
+DEBUG 2021-02-20 19:25:06,205 utils (0.000) SELECT (1) AS "a" FROM "cities_city" WHERE "cities_city"."id" = 8 LIMIT 1; args=(8,)
+DEBUG 2021-02-20 19:25:06,206 utils (0.000) SELECT (1) AS "a" FROM "routes_route" WHERE "routes_route"."name" = 'BW1' LIMIT 1; args=('BW1',)
+DEBUG 2021-02-20 19:25:06,209 utils (0.002) INSERT INTO "routes_route" ("name", "travel_times", "from_city_id", "to_city_id") VALUES ('BW1', 10, 10, 8); args=['BW1', 10, 10, 8]
+DEBUG 2021-02-20 19:25:06,209 utils (0.000) BEGIN; args=None
+DEBUG 2021-02-20 19:25:06,210 utils (0.000) SELECT "trains_train"."id" FROM "trains_train" INNER JOIN "routes_route_trains" ON ("trains_train"."id" = "routes_route_trains"."train_id") WHERE "routes_route_trains"."route_id" = 3 ORDER BY "trains_train"."travel_time" ASC; args=(3,)
+DEBUG 2021-02-20 19:25:06,211 utils (0.000) INSERT OR IGNORE INTO "routes_route_trains" ("route_id", "train_id") SELECT 3, 1; args=(3, 1)
+DEBUG 2021-02-20 19:25:06,254 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC; args=()
+DEBUG 2021-02-20 19:25:06,258 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC; args=()
+DEBUG 2021-02-20 19:25:06,261 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC; args=()
+DEBUG 2021-02-20 19:28:08,619 utils (0.013) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+DEBUG 2021-02-20 19:28:08,648 utils (0.001) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
+DEBUG 2021-02-20 19:28:39,064 utils (0.011) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+DEBUG 2021-02-20 19:28:39,110 utils (0.018) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
+DEBUG 2021-02-20 19:28:56,650 utils (0.011) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+DEBUG 2021-02-20 19:28:56,687 utils (0.018) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
+DEBUG 2021-02-20 19:29:24,603 utils (0.011) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+DEBUG 2021-02-20 19:29:24,649 utils (0.018) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
+DEBUG 2021-02-20 19:30:25,210 utils (0.028) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+DEBUG 2021-02-20 19:30:25,247 utils (0.018) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
+DEBUG 2021-02-20 19:30:36,934 utils (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+DEBUG 2021-02-20 19:30:36,954 utils (0.001) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
+DEBUG 2021-02-20 19:31:00,457 utils (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+DEBUG 2021-02-20 19:31:00,460 utils (0.001) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
+DEBUG 2021-02-20 19:31:38,259 utils (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+DEBUG 2021-02-20 19:31:38,285 utils (0.001) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
+DEBUG 2021-02-20 19:33:53,016 utils (0.008) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC; args=()
+DEBUG 2021-02-20 19:33:53,059 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC; args=()
+DEBUG 2021-02-20 19:33:53,062 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC; args=()
+DEBUG 2021-02-20 19:34:02,838 utils (0.031) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2021-02-20 19:34:02.806321' AND "django_session"."session_key" = 'ujx4ulfu7uvtrpwrmton2ezujnfccale') LIMIT 21; args=('2021-02-20 19:34:02.806321', 'ujx4ulfu7uvtrpwrmton2ezujnfccale')
+DEBUG 2021-02-20 19:34:02,841 utils (0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,)
+DEBUG 2021-02-20 19:34:02,972 utils (0.018) SELECT "django_admin_log"."id", "django_admin_log"."action_time", "django_admin_log"."user_id", "django_admin_log"."content_type_id", "django_admin_log"."object_id", "django_admin_log"."object_repr", "django_admin_log"."action_flag", "django_admin_log"."change_message", "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined", "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_admin_log" INNER JOIN "auth_user" ON ("django_admin_log"."user_id" = "auth_user"."id") LEFT OUTER JOIN "django_content_type" ON ("django_admin_log"."content_type_id" = "django_content_type"."id") WHERE "django_admin_log"."user_id" = 1 ORDER BY "django_admin_log"."action_time" DESC LIMIT 10; args=(1,)
+DEBUG 2021-02-20 19:34:05,408 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2021-02-20 19:34:05.406904' AND "django_session"."session_key" = 'ujx4ulfu7uvtrpwrmton2ezujnfccale') LIMIT 21; args=('2021-02-20 19:34:05.406904', 'ujx4ulfu7uvtrpwrmton2ezujnfccale')
+DEBUG 2021-02-20 19:34:05,409 utils (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,)
+DEBUG 2021-02-20 19:34:05,419 utils (0.009) SELECT COUNT(*) AS "__count" FROM "routes_route"; args=()
+DEBUG 2021-02-20 19:34:05,419 utils (0.000) SELECT COUNT(*) AS "__count" FROM "routes_route"; args=()
+DEBUG 2021-02-20 19:34:05,444 utils (0.022) SELECT "routes_route"."id", "routes_route"."name", "routes_route"."travel_times", "routes_route"."from_city_id", "routes_route"."to_city_id" FROM "routes_route" ORDER BY "routes_route"."travel_times" ASC, "routes_route"."id" DESC; args=()
+DEBUG 2021-02-20 19:34:05,526 utils (0.020) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:34:05,528 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:34:05,530 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:34:05,564 utils (0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2021-02-20 19:34:05.561951' AND "django_session"."session_key" = 'ujx4ulfu7uvtrpwrmton2ezujnfccale') LIMIT 21; args=('2021-02-20 19:34:05.561951', 'ujx4ulfu7uvtrpwrmton2ezujnfccale')
+DEBUG 2021-02-20 19:34:05,565 utils (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,)
+DEBUG 2021-02-20 19:34:12,727 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2021-02-20 19:34:12.725547' AND "django_session"."session_key" = 'ujx4ulfu7uvtrpwrmton2ezujnfccale') LIMIT 21; args=('2021-02-20 19:34:12.725547', 'ujx4ulfu7uvtrpwrmton2ezujnfccale')
+DEBUG 2021-02-20 19:34:12,743 utils (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,)
+DEBUG 2021-02-20 19:34:12,744 utils (0.000) BEGIN; args=None
+DEBUG 2021-02-20 19:34:12,744 utils (0.000) SELECT "routes_route"."id", "routes_route"."name", "routes_route"."travel_times", "routes_route"."from_city_id", "routes_route"."to_city_id" FROM "routes_route" WHERE "routes_route"."id" = 1 LIMIT 21; args=(1,)
+DEBUG 2021-02-20 19:34:12,776 utils (0.028) SELECT "trains_train"."id", "trains_train"."name", "trains_train"."travel_time", "trains_train"."from_city_id", "trains_train"."to_city_id" FROM "trains_train" INNER JOIN "routes_route_trains" ON ("trains_train"."id" = "routes_route_trains"."train_id") WHERE "routes_route_trains"."route_id" = 1 ORDER BY "trains_train"."travel_time" ASC; args=(1,)
+DEBUG 2021-02-20 19:34:12,798 utils (0.020) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."app_label" = 'routes' AND "django_content_type"."model" = 'route') LIMIT 21; args=('routes', 'route')
+DEBUG 2021-02-20 19:34:13,062 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:34:13,157 utils (0.001) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC; args=()
+DEBUG 2021-02-20 19:34:13,192 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC; args=()
+DEBUG 2021-02-20 19:34:13,198 utils (0.000) SELECT "trains_train"."id", "trains_train"."name", "trains_train"."travel_time", "trains_train"."from_city_id", "trains_train"."to_city_id" FROM "trains_train" ORDER BY "trains_train"."travel_time" ASC; args=()
+DEBUG 2021-02-20 19:34:13,198 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:34:13,199 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:34:13,199 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:34:13,200 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:34:13,200 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:34:13,201 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:34:13,242 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2021-02-20 19:34:13.239821' AND "django_session"."session_key" = 'ujx4ulfu7uvtrpwrmton2ezujnfccale') LIMIT 21; args=('2021-02-20 19:34:13.239821', 'ujx4ulfu7uvtrpwrmton2ezujnfccale')
+DEBUG 2021-02-20 19:34:13,244 utils (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,)
+DEBUG 2021-02-20 19:34:31,116 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2021-02-20 19:34:31.114600' AND "django_session"."session_key" = 'ujx4ulfu7uvtrpwrmton2ezujnfccale') LIMIT 21; args=('2021-02-20 19:34:31.114600', 'ujx4ulfu7uvtrpwrmton2ezujnfccale')
+DEBUG 2021-02-20 19:34:31,154 utils (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,)
+DEBUG 2021-02-20 19:34:31,172 utils (0.017) SELECT COUNT(*) AS "__count" FROM "trains_train"; args=()
+DEBUG 2021-02-20 19:34:31,172 utils (0.000) SELECT COUNT(*) AS "__count" FROM "trains_train"; args=()
+DEBUG 2021-02-20 19:34:31,211 utils (0.037) SELECT "trains_train"."id", "trains_train"."name", "trains_train"."travel_time", "trains_train"."from_city_id", "trains_train"."to_city_id", "cities_city"."id", "cities_city"."name", T3."id", T3."name" FROM "trains_train" INNER JOIN "cities_city" ON ("trains_train"."from_city_id" = "cities_city"."id") INNER JOIN "cities_city" T3 ON ("trains_train"."to_city_id" = T3."id") ORDER BY "trains_train"."travel_time" ASC, "trains_train"."id" DESC; args=()
+DEBUG 2021-02-20 19:34:31,366 utils (0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2021-02-20 19:34:31.363995' AND "django_session"."session_key" = 'ujx4ulfu7uvtrpwrmton2ezujnfccale') LIMIT 21; args=('2021-02-20 19:34:31.363995', 'ujx4ulfu7uvtrpwrmton2ezujnfccale')
+DEBUG 2021-02-20 19:34:31,367 utils (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,)
+DEBUG 2021-02-20 19:37:14,931 utils (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+DEBUG 2021-02-20 19:37:14,953 utils (0.001) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
+DEBUG 2021-02-20 19:37:34,552 utils (0.022) SELECT COUNT(*) AS "__count" FROM "routes_route"; args=()
+DEBUG 2021-02-20 19:37:34,735 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2021-02-20 19:37:34.733957' AND "django_session"."session_key" = 'ujx4ulfu7uvtrpwrmton2ezujnfccale') LIMIT 21; args=('2021-02-20 19:37:34.733957', 'ujx4ulfu7uvtrpwrmton2ezujnfccale')
+DEBUG 2021-02-20 19:37:34,736 utils (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,)
+DEBUG 2021-02-20 19:37:34,805 utils (0.000) SELECT "routes_route"."id", "routes_route"."name", "routes_route"."travel_times", "routes_route"."from_city_id", "routes_route"."to_city_id" FROM "routes_route" ORDER BY "routes_route"."travel_times" ASC LIMIT 3; args=()
+DEBUG 2021-02-20 19:37:34,806 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:37:34,807 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:37:34,808 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:37:34,808 utils (0.000) SELECT "routes_route"."id", "routes_route"."name", "routes_route"."travel_times", "routes_route"."from_city_id", "routes_route"."to_city_id" FROM "routes_route" ORDER BY "routes_route"."travel_times" ASC LIMIT 3; args=()
+DEBUG 2021-02-20 19:37:34,809 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:37:34,809 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:37:34,810 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:37:34,810 utils (0.000) SELECT "routes_route"."id", "routes_route"."name", "routes_route"."travel_times", "routes_route"."from_city_id", "routes_route"."to_city_id" FROM "routes_route" ORDER BY "routes_route"."travel_times" ASC LIMIT 3; args=()
+DEBUG 2021-02-20 19:37:34,811 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:37:34,812 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:37:34,812 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:37:34,813 utils (0.000) SELECT "routes_route"."id", "routes_route"."name", "routes_route"."travel_times", "routes_route"."from_city_id", "routes_route"."to_city_id" FROM "routes_route" ORDER BY "routes_route"."travel_times" ASC LIMIT 3; args=()
+DEBUG 2021-02-20 19:37:34,813 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:37:34,814 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:37:34,815 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:37:34,816 utils (0.000) SELECT "routes_route"."id", "routes_route"."name", "routes_route"."travel_times", "routes_route"."from_city_id", "routes_route"."to_city_id" FROM "routes_route" ORDER BY "routes_route"."travel_times" ASC LIMIT 3; args=()
+DEBUG 2021-02-20 19:37:34,816 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:37:34,817 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:37:34,818 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:37:34,818 utils (0.000) SELECT "routes_route"."id", "routes_route"."name", "routes_route"."travel_times", "routes_route"."from_city_id", "routes_route"."to_city_id" FROM "routes_route" ORDER BY "routes_route"."travel_times" ASC LIMIT 3; args=()
+DEBUG 2021-02-20 19:37:34,819 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:37:34,819 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:37:34,820 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:37:34,820 utils (0.000) SELECT "routes_route"."id", "routes_route"."name", "routes_route"."travel_times", "routes_route"."from_city_id", "routes_route"."to_city_id" FROM "routes_route" ORDER BY "routes_route"."travel_times" ASC LIMIT 3; args=()
+DEBUG 2021-02-20 19:37:34,821 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:37:34,822 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:37:34,822 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:37:34,823 utils (0.000) SELECT "routes_route"."id", "routes_route"."name", "routes_route"."travel_times", "routes_route"."from_city_id", "routes_route"."to_city_id" FROM "routes_route" ORDER BY "routes_route"."travel_times" ASC LIMIT 3; args=()
+DEBUG 2021-02-20 19:37:34,823 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:37:34,824 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:37:34,825 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:37:34,825 utils (0.000) SELECT "routes_route"."id", "routes_route"."name", "routes_route"."travel_times", "routes_route"."from_city_id", "routes_route"."to_city_id" FROM "routes_route" ORDER BY "routes_route"."travel_times" ASC LIMIT 3; args=()
+DEBUG 2021-02-20 19:37:34,826 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:37:34,826 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:37:34,827 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:37:34,828 utils (0.000) SELECT "routes_route"."id", "routes_route"."name", "routes_route"."travel_times", "routes_route"."from_city_id", "routes_route"."to_city_id" FROM "routes_route" ORDER BY "routes_route"."travel_times" ASC LIMIT 3; args=()
+DEBUG 2021-02-20 19:37:34,829 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:37:34,830 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:37:34,830 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:37:34,831 utils (0.000) SELECT "routes_route"."id", "routes_route"."name", "routes_route"."travel_times", "routes_route"."from_city_id", "routes_route"."to_city_id" FROM "routes_route" ORDER BY "routes_route"."travel_times" ASC LIMIT 3; args=()
+DEBUG 2021-02-20 19:37:34,832 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:37:34,833 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:37:34,834 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:37:34,834 utils (0.000) SELECT "routes_route"."id", "routes_route"."name", "routes_route"."travel_times", "routes_route"."from_city_id", "routes_route"."to_city_id" FROM "routes_route" ORDER BY "routes_route"."travel_times" ASC LIMIT 3; args=()
+DEBUG 2021-02-20 19:37:34,835 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:37:34,836 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:37:34,836 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:37:34,837 utils (0.000) SELECT "routes_route"."id", "routes_route"."name", "routes_route"."travel_times", "routes_route"."from_city_id", "routes_route"."to_city_id" FROM "routes_route" ORDER BY "routes_route"."travel_times" ASC LIMIT 3; args=()
+DEBUG 2021-02-20 19:37:34,838 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:37:34,839 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:37:34,839 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:37:34,840 utils (0.000) SELECT "routes_route"."id", "routes_route"."name", "routes_route"."travel_times", "routes_route"."from_city_id", "routes_route"."to_city_id" FROM "routes_route" ORDER BY "routes_route"."travel_times" ASC LIMIT 3; args=()
+DEBUG 2021-02-20 19:37:34,840 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:37:34,841 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:37:34,841 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:37:34,842 utils (0.000) SELECT "routes_route"."id", "routes_route"."name", "routes_route"."travel_times", "routes_route"."from_city_id", "routes_route"."to_city_id" FROM "routes_route" ORDER BY "routes_route"."travel_times" ASC LIMIT 3; args=()
+DEBUG 2021-02-20 19:37:34,843 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:37:34,843 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:37:34,844 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:37:34,844 utils (0.000) SELECT "routes_route"."id", "routes_route"."name", "routes_route"."travel_times", "routes_route"."from_city_id", "routes_route"."to_city_id" FROM "routes_route" ORDER BY "routes_route"."travel_times" ASC LIMIT 3; args=()
+DEBUG 2021-02-20 19:37:34,845 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:37:34,846 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:37:34,846 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:37:34,847 utils (0.000) SELECT "routes_route"."id", "routes_route"."name", "routes_route"."travel_times", "routes_route"."from_city_id", "routes_route"."to_city_id" FROM "routes_route" ORDER BY "routes_route"."travel_times" ASC LIMIT 3; args=()
+DEBUG 2021-02-20 19:37:34,848 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:37:34,849 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:37:34,849 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+ERROR 2021-02-20 19:37:35,092 log Internal Server Error: /list/
+Traceback (most recent call last):
+  File "/Users/agafonova/find_route/my_venv/lib/python3.8/site-packages/django/urls/base.py", line 72, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'accounts'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/agafonova/find_route/my_venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/agafonova/find_route/my_venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+  File "/Users/agafonova/find_route/my_venv/lib/python3.8/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/Users/agafonova/find_route/my_venv/lib/python3.8/site-packages/django/template/response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "/Users/agafonova/find_route/my_venv/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/agafonova/find_route/my_venv/lib/python3.8/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/agafonova/find_route/my_venv/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/agafonova/find_route/my_venv/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/agafonova/find_route/my_venv/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/agafonova/find_route/my_venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/agafonova/find_route/my_venv/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/agafonova/find_route/my_venv/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/agafonova/find_route/my_venv/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/agafonova/find_route/my_venv/lib/python3.8/site-packages/django/template/defaulttags.py", line 312, in render
+    return nodelist.render(context)
+  File "/Users/agafonova/find_route/my_venv/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/agafonova/find_route/my_venv/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/agafonova/find_route/my_venv/lib/python3.8/site-packages/django/template/defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/agafonova/find_route/my_venv/lib/python3.8/site-packages/django/urls/base.py", line 83, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'accounts' is not a registered namespace
+DEBUG 2021-02-20 19:38:21,416 utils (0.057) SELECT COUNT(*) AS "__count" FROM "routes_route"; args=()
+DEBUG 2021-02-20 19:38:21,457 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2021-02-20 19:38:21.456172' AND "django_session"."session_key" = 'ujx4ulfu7uvtrpwrmton2ezujnfccale') LIMIT 21; args=('2021-02-20 19:38:21.456172', 'ujx4ulfu7uvtrpwrmton2ezujnfccale')
+DEBUG 2021-02-20 19:38:21,458 utils (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,)
+DEBUG 2021-02-20 19:38:21,492 utils (0.000) SELECT "routes_route"."id", "routes_route"."name", "routes_route"."travel_times", "routes_route"."from_city_id", "routes_route"."to_city_id" FROM "routes_route" ORDER BY "routes_route"."travel_times" ASC LIMIT 3; args=()
+DEBUG 2021-02-20 19:38:21,493 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:21,494 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:21,494 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:21,494 utils (0.000) SELECT "routes_route"."id", "routes_route"."name", "routes_route"."travel_times", "routes_route"."from_city_id", "routes_route"."to_city_id" FROM "routes_route" ORDER BY "routes_route"."travel_times" ASC LIMIT 3; args=()
+DEBUG 2021-02-20 19:38:21,495 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:21,496 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:21,496 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:21,497 utils (0.000) SELECT "routes_route"."id", "routes_route"."name", "routes_route"."travel_times", "routes_route"."from_city_id", "routes_route"."to_city_id" FROM "routes_route" ORDER BY "routes_route"."travel_times" ASC LIMIT 3; args=()
+DEBUG 2021-02-20 19:38:21,498 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:21,498 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:21,499 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:21,500 utils (0.000) SELECT "routes_route"."id", "routes_route"."name", "routes_route"."travel_times", "routes_route"."from_city_id", "routes_route"."to_city_id" FROM "routes_route" ORDER BY "routes_route"."travel_times" ASC LIMIT 3; args=()
+DEBUG 2021-02-20 19:38:21,500 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:21,501 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:21,502 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:21,502 utils (0.000) SELECT "routes_route"."id", "routes_route"."name", "routes_route"."travel_times", "routes_route"."from_city_id", "routes_route"."to_city_id" FROM "routes_route" ORDER BY "routes_route"."travel_times" ASC LIMIT 3; args=()
+DEBUG 2021-02-20 19:38:21,503 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:21,504 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:21,504 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:21,505 utils (0.000) SELECT "routes_route"."id", "routes_route"."name", "routes_route"."travel_times", "routes_route"."from_city_id", "routes_route"."to_city_id" FROM "routes_route" ORDER BY "routes_route"."travel_times" ASC LIMIT 3; args=()
+DEBUG 2021-02-20 19:38:21,505 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:21,506 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:21,507 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:21,507 utils (0.000) SELECT "routes_route"."id", "routes_route"."name", "routes_route"."travel_times", "routes_route"."from_city_id", "routes_route"."to_city_id" FROM "routes_route" ORDER BY "routes_route"."travel_times" ASC LIMIT 3; args=()
+DEBUG 2021-02-20 19:38:21,508 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:21,509 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:21,509 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:21,510 utils (0.000) SELECT "routes_route"."id", "routes_route"."name", "routes_route"."travel_times", "routes_route"."from_city_id", "routes_route"."to_city_id" FROM "routes_route" ORDER BY "routes_route"."travel_times" ASC LIMIT 3; args=()
+DEBUG 2021-02-20 19:38:21,510 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:21,511 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:21,511 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:21,512 utils (0.000) SELECT "routes_route"."id", "routes_route"."name", "routes_route"."travel_times", "routes_route"."from_city_id", "routes_route"."to_city_id" FROM "routes_route" ORDER BY "routes_route"."travel_times" ASC LIMIT 3; args=()
+DEBUG 2021-02-20 19:38:21,512 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:21,513 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:21,514 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:21,514 utils (0.000) SELECT "routes_route"."id", "routes_route"."name", "routes_route"."travel_times", "routes_route"."from_city_id", "routes_route"."to_city_id" FROM "routes_route" ORDER BY "routes_route"."travel_times" ASC LIMIT 3; args=()
+DEBUG 2021-02-20 19:38:21,515 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:21,515 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:21,516 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:21,516 utils (0.000) SELECT "routes_route"."id", "routes_route"."name", "routes_route"."travel_times", "routes_route"."from_city_id", "routes_route"."to_city_id" FROM "routes_route" ORDER BY "routes_route"."travel_times" ASC LIMIT 3; args=()
+DEBUG 2021-02-20 19:38:21,517 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:21,518 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:21,519 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:21,520 utils (0.000) SELECT "routes_route"."id", "routes_route"."name", "routes_route"."travel_times", "routes_route"."from_city_id", "routes_route"."to_city_id" FROM "routes_route" ORDER BY "routes_route"."travel_times" ASC LIMIT 3; args=()
+DEBUG 2021-02-20 19:38:21,520 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:21,521 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:21,522 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:21,522 utils (0.000) SELECT "routes_route"."id", "routes_route"."name", "routes_route"."travel_times", "routes_route"."from_city_id", "routes_route"."to_city_id" FROM "routes_route" ORDER BY "routes_route"."travel_times" ASC LIMIT 3; args=()
+DEBUG 2021-02-20 19:38:21,523 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:21,524 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:21,524 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:21,525 utils (0.000) SELECT "routes_route"."id", "routes_route"."name", "routes_route"."travel_times", "routes_route"."from_city_id", "routes_route"."to_city_id" FROM "routes_route" ORDER BY "routes_route"."travel_times" ASC LIMIT 3; args=()
+DEBUG 2021-02-20 19:38:21,525 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:21,526 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:21,526 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:21,527 utils (0.000) SELECT "routes_route"."id", "routes_route"."name", "routes_route"."travel_times", "routes_route"."from_city_id", "routes_route"."to_city_id" FROM "routes_route" ORDER BY "routes_route"."travel_times" ASC LIMIT 3; args=()
+DEBUG 2021-02-20 19:38:21,528 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:21,528 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:21,529 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:21,529 utils (0.000) SELECT "routes_route"."id", "routes_route"."name", "routes_route"."travel_times", "routes_route"."from_city_id", "routes_route"."to_city_id" FROM "routes_route" ORDER BY "routes_route"."travel_times" ASC LIMIT 3; args=()
+DEBUG 2021-02-20 19:38:21,530 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:21,530 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:21,531 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:21,532 utils (0.000) SELECT "routes_route"."id", "routes_route"."name", "routes_route"."travel_times", "routes_route"."from_city_id", "routes_route"."to_city_id" FROM "routes_route" ORDER BY "routes_route"."travel_times" ASC LIMIT 3; args=()
+DEBUG 2021-02-20 19:38:21,532 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:21,533 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:21,533 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+ERROR 2021-02-20 19:38:21,567 log Internal Server Error: /list/
+Traceback (most recent call last):
+  File "/Users/agafonova/find_route/my_venv/lib/python3.8/site-packages/django/urls/base.py", line 72, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'accounts'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/agafonova/find_route/my_venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/agafonova/find_route/my_venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+  File "/Users/agafonova/find_route/my_venv/lib/python3.8/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/Users/agafonova/find_route/my_venv/lib/python3.8/site-packages/django/template/response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "/Users/agafonova/find_route/my_venv/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/agafonova/find_route/my_venv/lib/python3.8/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/agafonova/find_route/my_venv/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/agafonova/find_route/my_venv/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/agafonova/find_route/my_venv/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/agafonova/find_route/my_venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/agafonova/find_route/my_venv/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/agafonova/find_route/my_venv/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/agafonova/find_route/my_venv/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/agafonova/find_route/my_venv/lib/python3.8/site-packages/django/template/defaulttags.py", line 312, in render
+    return nodelist.render(context)
+  File "/Users/agafonova/find_route/my_venv/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/agafonova/find_route/my_venv/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/agafonova/find_route/my_venv/lib/python3.8/site-packages/django/template/defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/agafonova/find_route/my_venv/lib/python3.8/site-packages/django/urls/base.py", line 83, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'accounts' is not a registered namespace
+DEBUG 2021-02-20 19:38:23,866 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2021-02-20 19:38:23.865041' AND "django_session"."session_key" = 'ujx4ulfu7uvtrpwrmton2ezujnfccale') LIMIT 21; args=('2021-02-20 19:38:23.865041', 'ujx4ulfu7uvtrpwrmton2ezujnfccale')
+DEBUG 2021-02-20 19:38:23,867 utils (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,)
+DEBUG 2021-02-20 19:38:23,869 utils (0.000) SELECT COUNT(*) AS "__count" FROM "trains_train"; args=()
+DEBUG 2021-02-20 19:38:23,869 utils (0.000) SELECT COUNT(*) AS "__count" FROM "trains_train"; args=()
+DEBUG 2021-02-20 19:38:23,880 utils (0.009) SELECT "trains_train"."id", "trains_train"."name", "trains_train"."travel_time", "trains_train"."from_city_id", "trains_train"."to_city_id", "cities_city"."id", "cities_city"."name", T3."id", T3."name" FROM "trains_train" INNER JOIN "cities_city" ON ("trains_train"."from_city_id" = "cities_city"."id") INNER JOIN "cities_city" T3 ON ("trains_train"."to_city_id" = T3."id") ORDER BY "trains_train"."travel_time" ASC, "trains_train"."id" DESC; args=()
+DEBUG 2021-02-20 19:38:26,690 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2021-02-20 19:38:26.689016' AND "django_session"."session_key" = 'ujx4ulfu7uvtrpwrmton2ezujnfccale') LIMIT 21; args=('2021-02-20 19:38:26.689016', 'ujx4ulfu7uvtrpwrmton2ezujnfccale')
+DEBUG 2021-02-20 19:38:26,691 utils (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,)
+DEBUG 2021-02-20 19:38:26,692 utils (0.000) SELECT COUNT(*) AS "__count" FROM "trains_train"; args=()
+DEBUG 2021-02-20 19:38:26,692 utils (0.000) SELECT COUNT(*) AS "__count" FROM "trains_train"; args=()
+DEBUG 2021-02-20 19:38:26,693 utils (0.000) SELECT "trains_train"."id", "trains_train"."name", "trains_train"."travel_time", "trains_train"."from_city_id", "trains_train"."to_city_id", "cities_city"."id", "cities_city"."name", T3."id", T3."name" FROM "trains_train" INNER JOIN "cities_city" ON ("trains_train"."from_city_id" = "cities_city"."id") INNER JOIN "cities_city" T3 ON ("trains_train"."to_city_id" = T3."id") ORDER BY "trains_train"."travel_time" ASC, "trains_train"."id" DESC; args=()
+DEBUG 2021-02-20 19:38:26,770 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2021-02-20 19:38:26.768187' AND "django_session"."session_key" = 'ujx4ulfu7uvtrpwrmton2ezujnfccale') LIMIT 21; args=('2021-02-20 19:38:26.768187', 'ujx4ulfu7uvtrpwrmton2ezujnfccale')
+DEBUG 2021-02-20 19:38:26,772 utils (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,)
+DEBUG 2021-02-20 19:38:28,704 utils (0.000) SELECT COUNT(*) AS "__count" FROM "routes_route"; args=()
+DEBUG 2021-02-20 19:38:28,710 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2021-02-20 19:38:28.709079' AND "django_session"."session_key" = 'ujx4ulfu7uvtrpwrmton2ezujnfccale') LIMIT 21; args=('2021-02-20 19:38:28.709079', 'ujx4ulfu7uvtrpwrmton2ezujnfccale')
+DEBUG 2021-02-20 19:38:28,712 utils (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,)
+DEBUG 2021-02-20 19:38:28,732 utils (0.000) SELECT "routes_route"."id", "routes_route"."name", "routes_route"."travel_times", "routes_route"."from_city_id", "routes_route"."to_city_id" FROM "routes_route" ORDER BY "routes_route"."travel_times" ASC LIMIT 3; args=()
+DEBUG 2021-02-20 19:38:28,733 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:28,734 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:28,734 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:28,735 utils (0.000) SELECT "routes_route"."id", "routes_route"."name", "routes_route"."travel_times", "routes_route"."from_city_id", "routes_route"."to_city_id" FROM "routes_route" ORDER BY "routes_route"."travel_times" ASC LIMIT 3; args=()
+DEBUG 2021-02-20 19:38:28,736 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:28,737 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:28,738 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:28,738 utils (0.000) SELECT "routes_route"."id", "routes_route"."name", "routes_route"."travel_times", "routes_route"."from_city_id", "routes_route"."to_city_id" FROM "routes_route" ORDER BY "routes_route"."travel_times" ASC LIMIT 3; args=()
+DEBUG 2021-02-20 19:38:28,739 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:28,741 utils (0.001) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:28,741 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:28,742 utils (0.000) SELECT "routes_route"."id", "routes_route"."name", "routes_route"."travel_times", "routes_route"."from_city_id", "routes_route"."to_city_id" FROM "routes_route" ORDER BY "routes_route"."travel_times" ASC LIMIT 3; args=()
+DEBUG 2021-02-20 19:38:28,743 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:28,743 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:28,744 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:28,745 utils (0.000) SELECT "routes_route"."id", "routes_route"."name", "routes_route"."travel_times", "routes_route"."from_city_id", "routes_route"."to_city_id" FROM "routes_route" ORDER BY "routes_route"."travel_times" ASC LIMIT 3; args=()
+DEBUG 2021-02-20 19:38:28,746 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:28,746 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:28,747 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:28,748 utils (0.000) SELECT "routes_route"."id", "routes_route"."name", "routes_route"."travel_times", "routes_route"."from_city_id", "routes_route"."to_city_id" FROM "routes_route" ORDER BY "routes_route"."travel_times" ASC LIMIT 3; args=()
+DEBUG 2021-02-20 19:38:28,749 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:28,749 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:28,750 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:28,750 utils (0.000) SELECT "routes_route"."id", "routes_route"."name", "routes_route"."travel_times", "routes_route"."from_city_id", "routes_route"."to_city_id" FROM "routes_route" ORDER BY "routes_route"."travel_times" ASC LIMIT 3; args=()
+DEBUG 2021-02-20 19:38:28,751 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:28,752 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:28,752 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:28,755 utils (0.001) SELECT "routes_route"."id", "routes_route"."name", "routes_route"."travel_times", "routes_route"."from_city_id", "routes_route"."to_city_id" FROM "routes_route" ORDER BY "routes_route"."travel_times" ASC LIMIT 3; args=()
+DEBUG 2021-02-20 19:38:28,756 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:28,759 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:28,760 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:28,761 utils (0.000) SELECT "routes_route"."id", "routes_route"."name", "routes_route"."travel_times", "routes_route"."from_city_id", "routes_route"."to_city_id" FROM "routes_route" ORDER BY "routes_route"."travel_times" ASC LIMIT 3; args=()
+DEBUG 2021-02-20 19:38:28,763 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:28,765 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:28,766 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:28,767 utils (0.000) SELECT "routes_route"."id", "routes_route"."name", "routes_route"."travel_times", "routes_route"."from_city_id", "routes_route"."to_city_id" FROM "routes_route" ORDER BY "routes_route"."travel_times" ASC LIMIT 3; args=()
+DEBUG 2021-02-20 19:38:28,767 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:28,768 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:28,769 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:28,769 utils (0.000) SELECT "routes_route"."id", "routes_route"."name", "routes_route"."travel_times", "routes_route"."from_city_id", "routes_route"."to_city_id" FROM "routes_route" ORDER BY "routes_route"."travel_times" ASC LIMIT 3; args=()
+DEBUG 2021-02-20 19:38:28,770 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:28,771 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:28,773 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:28,775 utils (0.000) SELECT "routes_route"."id", "routes_route"."name", "routes_route"."travel_times", "routes_route"."from_city_id", "routes_route"."to_city_id" FROM "routes_route" ORDER BY "routes_route"."travel_times" ASC LIMIT 3; args=()
+DEBUG 2021-02-20 19:38:28,777 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:28,778 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:28,781 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:28,782 utils (0.000) SELECT "routes_route"."id", "routes_route"."name", "routes_route"."travel_times", "routes_route"."from_city_id", "routes_route"."to_city_id" FROM "routes_route" ORDER BY "routes_route"."travel_times" ASC LIMIT 3; args=()
+DEBUG 2021-02-20 19:38:28,782 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:28,783 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:28,784 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:28,784 utils (0.000) SELECT "routes_route"."id", "routes_route"."name", "routes_route"."travel_times", "routes_route"."from_city_id", "routes_route"."to_city_id" FROM "routes_route" ORDER BY "routes_route"."travel_times" ASC LIMIT 3; args=()
+DEBUG 2021-02-20 19:38:28,785 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:28,785 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:28,786 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:28,788 utils (0.000) SELECT "routes_route"."id", "routes_route"."name", "routes_route"."travel_times", "routes_route"."from_city_id", "routes_route"."to_city_id" FROM "routes_route" ORDER BY "routes_route"."travel_times" ASC LIMIT 3; args=()
+DEBUG 2021-02-20 19:38:28,789 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:28,790 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:28,792 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:28,793 utils (0.000) SELECT "routes_route"."id", "routes_route"."name", "routes_route"."travel_times", "routes_route"."from_city_id", "routes_route"."to_city_id" FROM "routes_route" ORDER BY "routes_route"."travel_times" ASC LIMIT 3; args=()
+DEBUG 2021-02-20 19:38:28,795 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:28,796 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:28,797 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:28,797 utils (0.000) SELECT "routes_route"."id", "routes_route"."name", "routes_route"."travel_times", "routes_route"."from_city_id", "routes_route"."to_city_id" FROM "routes_route" ORDER BY "routes_route"."travel_times" ASC LIMIT 3; args=()
+DEBUG 2021-02-20 19:38:28,800 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:28,800 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:38:28,801 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+ERROR 2021-02-20 19:38:28,851 log Internal Server Error: /list/
+Traceback (most recent call last):
+  File "/Users/agafonova/find_route/my_venv/lib/python3.8/site-packages/django/urls/base.py", line 72, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'accounts'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/agafonova/find_route/my_venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/agafonova/find_route/my_venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+  File "/Users/agafonova/find_route/my_venv/lib/python3.8/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/Users/agafonova/find_route/my_venv/lib/python3.8/site-packages/django/template/response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "/Users/agafonova/find_route/my_venv/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/agafonova/find_route/my_venv/lib/python3.8/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/agafonova/find_route/my_venv/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/agafonova/find_route/my_venv/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/agafonova/find_route/my_venv/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/agafonova/find_route/my_venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/agafonova/find_route/my_venv/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/agafonova/find_route/my_venv/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/agafonova/find_route/my_venv/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/agafonova/find_route/my_venv/lib/python3.8/site-packages/django/template/defaulttags.py", line 312, in render
+    return nodelist.render(context)
+  File "/Users/agafonova/find_route/my_venv/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/agafonova/find_route/my_venv/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/agafonova/find_route/my_venv/lib/python3.8/site-packages/django/template/defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/agafonova/find_route/my_venv/lib/python3.8/site-packages/django/urls/base.py", line 83, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'accounts' is not a registered namespace
+DEBUG 2021-02-20 19:42:45,303 utils (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+DEBUG 2021-02-20 19:42:45,325 utils (0.001) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
+DEBUG 2021-02-20 19:42:52,180 utils (0.000) SELECT COUNT(*) AS "__count" FROM "routes_route"; args=()
+DEBUG 2021-02-20 19:42:52,376 utils (0.000) SELECT "routes_route"."id", "routes_route"."name", "routes_route"."travel_times", "routes_route"."from_city_id", "routes_route"."to_city_id" FROM "routes_route" ORDER BY "routes_route"."travel_times" ASC LIMIT 3; args=()
+DEBUG 2021-02-20 19:42:52,377 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:42:52,379 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 8 LIMIT 21; args=(8,)
+DEBUG 2021-02-20 19:42:52,578 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:42:52,579 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 6 LIMIT 21; args=(6,)
+DEBUG 2021-02-20 19:42:52,580 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:42:52,580 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 4 LIMIT 21; args=(4,)
+DEBUG 2021-02-20 19:43:07,307 utils (0.000) SELECT COUNT(*) AS "__count" FROM "routes_route"; args=()
+DEBUG 2021-02-20 19:43:07,312 utils (0.000) SELECT "routes_route"."id", "routes_route"."name", "routes_route"."travel_times", "routes_route"."from_city_id", "routes_route"."to_city_id" FROM "routes_route" ORDER BY "routes_route"."travel_times" ASC LIMIT 3; args=()
+DEBUG 2021-02-20 19:43:07,312 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:43:07,313 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 8 LIMIT 21; args=(8,)
+DEBUG 2021-02-20 19:43:07,314 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:43:07,314 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 6 LIMIT 21; args=(6,)
+DEBUG 2021-02-20 19:43:07,315 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:43:07,315 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 4 LIMIT 21; args=(4,)
+DEBUG 2021-02-20 19:43:11,873 utils (0.000) SELECT COUNT(*) AS "__count" FROM "cities_city"; args=()
+DEBUG 2021-02-20 19:43:11,906 utils (0.013) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" ORDER BY "cities_city"."name" ASC LIMIT 2; args=()
+DEBUG 2021-02-20 19:43:13,346 utils (0.000) SELECT COUNT(*) AS "__count" FROM "trains_train"; args=()
+DEBUG 2021-02-20 19:43:13,379 utils (0.000) SELECT "trains_train"."id", "trains_train"."name", "trains_train"."travel_time", "trains_train"."from_city_id", "trains_train"."to_city_id" FROM "trains_train" ORDER BY "trains_train"."travel_time" ASC LIMIT 3; args=()
+DEBUG 2021-02-20 19:43:13,380 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:43:13,381 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 8 LIMIT 21; args=(8,)
+DEBUG 2021-02-20 19:43:13,382 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:43:13,383 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 4 LIMIT 21; args=(4,)
+DEBUG 2021-02-20 19:43:13,384 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:43:13,385 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 8 LIMIT 21; args=(8,)
+DEBUG 2021-02-20 19:43:14,144 utils (0.000) SELECT COUNT(*) AS "__count" FROM "routes_route"; args=()
+DEBUG 2021-02-20 19:43:14,148 utils (0.000) SELECT "routes_route"."id", "routes_route"."name", "routes_route"."travel_times", "routes_route"."from_city_id", "routes_route"."to_city_id" FROM "routes_route" ORDER BY "routes_route"."travel_times" ASC LIMIT 3; args=()
+DEBUG 2021-02-20 19:43:14,149 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:43:14,150 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 8 LIMIT 21; args=(8,)
+DEBUG 2021-02-20 19:43:14,150 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:43:14,151 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 6 LIMIT 21; args=(6,)
+DEBUG 2021-02-20 19:43:14,152 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 19:43:14,152 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 4 LIMIT 21; args=(4,)
+DEBUG 2021-02-20 19:45:57,125 utils (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+DEBUG 2021-02-20 19:45:57,156 utils (0.001) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
+DEBUG 2021-02-20 19:46:27,487 utils (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+DEBUG 2021-02-20 19:46:27,510 utils (0.001) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
+DEBUG 2021-02-20 19:46:49,432 utils (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+DEBUG 2021-02-20 19:46:49,462 utils (0.001) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
+DEBUG 2021-02-20 19:47:40,846 utils (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+DEBUG 2021-02-20 19:47:40,868 utils (0.001) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
+DEBUG 2021-02-20 19:48:39,286 utils (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+DEBUG 2021-02-20 19:48:39,317 utils (0.001) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
+DEBUG 2021-02-20 20:19:03,854 utils (0.001) SELECT COUNT(*) AS "__count" FROM "routes_route"; args=()
+DEBUG 2021-02-20 20:19:04,034 utils (0.000) SELECT "routes_route"."id", "routes_route"."name", "routes_route"."travel_times", "routes_route"."from_city_id", "routes_route"."to_city_id" FROM "routes_route" ORDER BY "routes_route"."travel_times" ASC LIMIT 3; args=()
+DEBUG 2021-02-20 20:19:04,038 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 20:19:04,038 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 8 LIMIT 21; args=(8,)
+DEBUG 2021-02-20 20:19:04,092 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 20:19:04,093 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 6 LIMIT 21; args=(6,)
+DEBUG 2021-02-20 20:19:04,094 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 20:19:04,094 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 4 LIMIT 21; args=(4,)
+WARNING 2021-02-20 20:19:04,879 log Not Found: /favicon.ico
+DEBUG 2021-02-20 20:19:06,859 utils (0.000) SELECT "routes_route"."id", "routes_route"."name", "routes_route"."travel_times", "routes_route"."from_city_id", "routes_route"."to_city_id" FROM "routes_route" WHERE "routes_route"."id" = 3 LIMIT 21; args=(3,)
+DEBUG 2021-02-20 20:19:06,915 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 20:19:06,915 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 8 LIMIT 21; args=(8,)
+DEBUG 2021-02-20 20:19:06,983 utils (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2021-02-20 20:19:06.982378' AND "django_session"."session_key" = 'ujx4ulfu7uvtrpwrmton2ezujnfccale') LIMIT 21; args=('2021-02-20 20:19:06.982378', 'ujx4ulfu7uvtrpwrmton2ezujnfccale')
+DEBUG 2021-02-20 20:19:06,984 utils (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,)
+ERROR 2021-02-20 20:19:07,016 log Internal Server Error: /detail/3/
+Traceback (most recent call last):
+  File "/Users/agafonova/find_route/my_venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/agafonova/find_route/my_venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+  File "/Users/agafonova/find_route/my_venv/lib/python3.8/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/Users/agafonova/find_route/my_venv/lib/python3.8/site-packages/django/template/response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "/Users/agafonova/find_route/my_venv/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/agafonova/find_route/my_venv/lib/python3.8/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/agafonova/find_route/my_venv/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/agafonova/find_route/my_venv/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/agafonova/find_route/my_venv/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/agafonova/find_route/my_venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/agafonova/find_route/my_venv/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/agafonova/find_route/my_venv/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/agafonova/find_route/my_venv/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/agafonova/find_route/my_venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/agafonova/find_route/my_venv/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/agafonova/find_route/my_venv/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/agafonova/find_route/my_venv/lib/python3.8/site-packages/django/template/defaulttags.py", line 167, in render
+    values = list(values)
+TypeError: 'ManyRelatedManager' object is not iterable
+WARNING 2021-02-20 20:19:07,112 log Not Found: /favicon.ico
+DEBUG 2021-02-20 20:19:53,161 utils (0.000) SELECT COUNT(*) AS "__count" FROM "routes_route"; args=()
+DEBUG 2021-02-20 20:19:53,216 utils (0.000) SELECT "routes_route"."id", "routes_route"."name", "routes_route"."travel_times", "routes_route"."from_city_id", "routes_route"."to_city_id" FROM "routes_route" ORDER BY "routes_route"."travel_times" ASC LIMIT 3; args=()
+DEBUG 2021-02-20 20:19:53,217 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 20:19:53,218 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 8 LIMIT 21; args=(8,)
+DEBUG 2021-02-20 20:19:53,219 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 20:19:53,220 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 6 LIMIT 21; args=(6,)
+DEBUG 2021-02-20 20:19:53,221 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 20:19:53,222 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 4 LIMIT 21; args=(4,)
+WARNING 2021-02-20 20:19:53,312 log Not Found: /favicon.ico
+DEBUG 2021-02-20 20:20:12,140 utils (0.000) SELECT "routes_route"."id", "routes_route"."name", "routes_route"."travel_times", "routes_route"."from_city_id", "routes_route"."to_city_id" FROM "routes_route" WHERE "routes_route"."id" = 3 LIMIT 21; args=(3,)
+DEBUG 2021-02-20 20:20:12,175 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 20:20:12,176 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 8 LIMIT 21; args=(8,)
+DEBUG 2021-02-20 20:20:12,194 utils (0.018) SELECT "trains_train"."id", "trains_train"."name", "trains_train"."travel_time", "trains_train"."from_city_id", "trains_train"."to_city_id" FROM "trains_train" INNER JOIN "routes_route_trains" ON ("trains_train"."id" = "routes_route_trains"."train_id") WHERE "routes_route_trains"."route_id" = 3 ORDER BY "trains_train"."travel_time" ASC; args=(3,)
+DEBUG 2021-02-20 20:20:12,196 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+WARNING 2021-02-20 20:20:12,314 log Not Found: /favicon.ico
+DEBUG 2021-02-20 20:21:43,004 utils (0.000) SELECT "routes_route"."id", "routes_route"."name", "routes_route"."travel_times", "routes_route"."from_city_id", "routes_route"."to_city_id" FROM "routes_route" WHERE "routes_route"."id" = 3 LIMIT 21; args=(3,)
+DEBUG 2021-02-20 20:21:43,028 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 20:21:43,029 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 8 LIMIT 21; args=(8,)
+DEBUG 2021-02-20 20:21:43,038 utils (0.009) SELECT "trains_train"."id", "trains_train"."name", "trains_train"."travel_time", "trains_train"."from_city_id", "trains_train"."to_city_id" FROM "trains_train" INNER JOIN "routes_route_trains" ON ("trains_train"."id" = "routes_route_trains"."train_id") WHERE "routes_route_trains"."route_id" = 3 ORDER BY "trains_train"."travel_time" ASC; args=(3,)
+DEBUG 2021-02-20 20:21:43,039 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+WARNING 2021-02-20 20:21:43,174 log Not Found: /favicon.ico
+DEBUG 2021-02-20 20:35:58,320 utils (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+DEBUG 2021-02-20 20:35:58,350 utils (0.001) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
+DEBUG 2021-02-20 20:36:01,398 utils (0.000) SELECT "routes_route"."id", "routes_route"."name", "routes_route"."travel_times", "routes_route"."from_city_id", "routes_route"."to_city_id" FROM "routes_route" WHERE "routes_route"."id" = 3 LIMIT 21; args=(3,)
+DEBUG 2021-02-20 20:36:01,476 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 20:36:01,476 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 8 LIMIT 21; args=(8,)
+DEBUG 2021-02-20 20:36:01,506 utils (0.019) SELECT "trains_train"."id", "trains_train"."name", "trains_train"."travel_time", "trains_train"."from_city_id", "trains_train"."to_city_id" FROM "trains_train" INNER JOIN "routes_route_trains" ON ("trains_train"."id" = "routes_route_trains"."train_id") WHERE "routes_route_trains"."route_id" = 3 ORDER BY "trains_train"."travel_time" ASC; args=(3,)
+DEBUG 2021-02-20 20:36:01,507 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+WARNING 2021-02-20 20:36:01,913 log Not Found: /favicon.ico
+DEBUG 2021-02-20 20:36:09,568 utils (0.000) SELECT COUNT(*) AS "__count" FROM "routes_route"; args=()
+DEBUG 2021-02-20 20:36:09,747 utils (0.000) SELECT "routes_route"."id", "routes_route"."name", "routes_route"."travel_times", "routes_route"."from_city_id", "routes_route"."to_city_id" FROM "routes_route" ORDER BY "routes_route"."travel_times" ASC LIMIT 3; args=()
+DEBUG 2021-02-20 20:36:09,749 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 20:36:09,749 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 8 LIMIT 21; args=(8,)
+DEBUG 2021-02-20 20:36:09,750 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 20:36:09,751 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 6 LIMIT 21; args=(6,)
+DEBUG 2021-02-20 20:36:09,751 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 20:36:09,752 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 4 LIMIT 21; args=(4,)
+DEBUG 2021-02-20 20:36:16,557 utils (0.001) SELECT "routes_route"."id", "routes_route"."name", "routes_route"."travel_times", "routes_route"."from_city_id", "routes_route"."to_city_id" FROM "routes_route" WHERE "routes_route"."id" = 1 LIMIT 21; args=(1,)
+DEBUG 2021-02-20 20:36:16,561 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 20:36:16,562 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 4 LIMIT 21; args=(4,)
+DEBUG 2021-02-20 20:36:16,563 utils (0.000) SELECT "trains_train"."id", "trains_train"."name", "trains_train"."travel_time", "trains_train"."from_city_id", "trains_train"."to_city_id" FROM "trains_train" INNER JOIN "routes_route_trains" ON ("trains_train"."id" = "routes_route_trains"."train_id") WHERE "routes_route_trains"."route_id" = 1 ORDER BY "trains_train"."travel_time" ASC; args=(1,)
+DEBUG 2021-02-20 20:36:16,564 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 20:36:16,564 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
+DEBUG 2021-02-20 20:36:16,565 utils (0.000) SELECT "cities_city"."id", "cities_city"."name" FROM "cities_city" WHERE "cities_city"."id" = 10 LIMIT 21; args=(10,)
