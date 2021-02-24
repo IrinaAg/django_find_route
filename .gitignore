@@ -1,4 +1,5 @@
-*.htmlcov
+
 
 *.log
 local_settings.py
+/htmlcov/
